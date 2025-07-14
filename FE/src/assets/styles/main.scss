@@ -1,0 +1,62 @@
+a.menu_item {
+  &.active {
+    background: rgba(82, 197, 255, 0.536);
+    color: rgb(12, 35, 46);
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 3px;
+      background: rgb(82, 197, 255);
+      top: 0;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
+
+
+.foot_form {
+
+  a {
+    @apply text-blue-500;
+
+    &:hover {
+      @apply text-blue-600;
+    }
+  }
+
+
+
+
+}
+
+.sidebar_wrapper {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  background: white;
+  transform: translateX(-100%);
+
+  @apply md:relative md:translate-x-0;
+
+
+  &.collapsed {
+    @apply  translate-x-0 transition-all duration-300
+  }
+
+
+
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}

@@ -1,0 +1,18 @@
+
+require('dotenv').config();
+const env = {
+  BUILD_MODE: process.env.BUILD_MODE,
+  LOCAL_APP_PORT: process.env.LOCAL_APP_PORT,
+  LOCAL_APP_PORT_SOCKET: process.env.LOCAL_APP_PORT_SOCKET,
+  LOCAL_APP_HOST: process.env.LOCAL_APP_HOST,
+  JWT_ACCESS_TOKEN_SECRET: process.env.JWT_ACCESS_TOKEN_SECRET,
+
+  TWILIO_ACCOUNT_SID: process.env.TWILIO_ACCOUNT_SID,
+  TWILIO_AUTH_TOKEN: process.env.TWILIO_AUTH_TOKEN,
+  TWILIO_PHONE_NUMBER: process.env.TWILIO_PHONE_NUMBER,
+  JWT_ACCESS_TOKEN_EXPIRES_IN: process.env.JWT_ACCESS_TOKEN_EXPIRES_IN,
+
+
+};
+
+module.exports = env;
