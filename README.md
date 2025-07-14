@@ -91,6 +91,8 @@ https://res.cloudinary.com/df6yoiryf/video/upload/v1752486661/demo_mmmpax.mp4
 ![App Screenshot](https://github.com/user-attachments/assets/77101d54-d791-4bd4-98ca-840d27db722a)
 
 ![App Screenshot](https://github.com/user-attachments/assets/8e676190-842f-44eb-b3d4-4d4a3ae87226)
+<img width="382" height="871" alt="image" src="https://github.com/user-attachments/assets/c0272350-da6d-4aa7-abb5-538cbaf23260" />
+
 
 ![App Screenshot](https://github.com/user-attachments/assets/4f95b88b-a916-4dba-ab82-9a0dcb167fd9)
 
