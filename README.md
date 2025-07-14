@@ -36,7 +36,12 @@ Install my-project with npm
     
 # NOTE
 
-About login with Admin role, use phone to login, I use twilio trial account so, only limited to 1 phone number, so if you want to login with admin role, please access the following url to login enter:
+in my project, i use private key of twilio and firebase so you will have to provide your firebase key and twilio key in project BACKEND so that the project can run the function send mail and send sms
+
+
+<img width="1917" height="821" alt="image" src="https://github.com/user-attachments/assets/3b77ade3-46e7-4b42-aed9-dc0a1805bd59" />
+
+BUT IF YOU WANT TO FAST TESTING YOU CAN YOU THIS LINK TO LOGIN THE USER WITH ADMIN ROLE
 
 http://localhost:5173/manageEmployee?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImRlcGFydG1lbnQiOiIiLCJ1c2VybmFtZSI6IiIsInBob2 5lTnVtYmVyIjoiKzg0MzU2ODYwNzgyIiwic3RhdHVzIjpmYWxzZSwicm9sZSI6IkFkbWl uIiwidXBkYXRlZEF0Ijp7Il9zZWNvbmRzIjoxNzUyNDc5ODM4LCJfbmFub3NlY29uZHMi OjY5NzAwMDAwMH0sImVtcGxveWVlSWQiOiJXam1Jckc2MWkyR3pUczg3NkZoWSIsIm5hbWU iOiJBZG1pbjEiLCJjcmVhdGVkQXQiOnsiX3NlY29uZHMiOjE3NTI0ODM3OTUsIl9uYW5vc2 Vjb25kcyI6ODU5MDAwMDAwfSwiYWNjZXNzQ29kZSI6Nzk5NTY5fSwiaWF0IjoxNzUyNDgzN zk5LCJleHAiOjE3NTQyMTE3OTl9.FhZhMqZiIhaw6GzTea0rhTOTz3YNKuEtbRY3-HIsXpU
 
